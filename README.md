@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Muizzy</h1>
 <h3 align="center">Python enthusiast always eager to learn, build, and connect with other developers.</h3>
 
-- 🔭 I’m currently working on **AirBnB Clone**
 
 - 🌱 I’m currently learning **Python**
 
