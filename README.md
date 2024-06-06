@@ -4,8 +4,6 @@
 
 - 🌱 I’m currently learning **Python**
 
-- 📝 I regularly write articles on [muizzyranking.hasnode.dev](muizzyranking.hasnode.dev)
-
 - 📫 How to reach me **oyebowaleabdulmuiz@gmail.com**
 
 - ⚡ Fun fact **I approach software development like an action strategy game – analyze, plan, execute.**
