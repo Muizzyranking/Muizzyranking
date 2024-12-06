@@ -56,6 +56,7 @@ I’d love to connect, collaborate, or simply chat about tech, themes, or anythi
 
 ### 📈 **By the Numbers**  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=muizzyranking&theme=tokyonight&hide_border=true)  
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=muizzyranking&theme=tokyonight&hide_border=true&hide_total_contributions=true" alt="GitHub Streak" /></a>
 
 ---
 
