@@ -62,7 +62,7 @@ PostCraft was the start. The photo finder app is next.
 
 ## Stats
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muizzyranking&layout=compact&theme=dark&hide_border=true&bg_color=0e0e0e&title_color=c9a84c&text_color=b8b0a4)
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muizzyranking&layout=compact&theme=dark&hide_border=true&bg_color=0e0e0e&title_color=c9a84c&text_color=b8b0a4&hide=html,css)
 
 ---
 
