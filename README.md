@@ -1,71 +1,84 @@
 # Muiz Oyebowale
-
+ 
 Backend engineer. I build systems that hold up when things get real.
-
-Most of my work has been at early-stage startups where the codebase is young,
-the requirements change fast, and someone has to own the backend end to end.
-That someone has usually been me.
-
+ 
+[muizzyranking.me](https://muizzyranking.me)
+ 
+Most of what I've shipped is backend systems that can't afford to be wrong —
+payments, auth, job scheduling, reconciliation. I've also led full-stack
+teams when the job called for it. Backend is home base, not a boundary.
+ 
 ---
-
+ 
 ## What I work with
 
-**Core:** Python, Django, FastAPI, Django Ninja, Django REST Framework,
-**Data:** PostgreSQL, Redis, MySQL  
-**Infrastructure:** Docker, Celery, Nginx, Gunicorn  
-**Auth:** JWT, OAuth, API Keys, Webhooks, RBAC  
 **Languages:** Python, JavaScript, TypeScript, Bash, SQL  
-**Tools:** Neovim, Git, Postman, Linux  
-
+**Core:** Django, FastAPI, Django Ninja, Django REST Framework, Next Js, React
+**Data:** PostgreSQL, MongoDB, Redis, MySQL
+**Infrastructure:** Docker, Celery, Nginx, Gunicorn, Uvicorn
+**Auth:** JWT, OAuth, API Keys, Webhooks, RBAC
+**Tools:** Neovim, Git, Postman, Linux
+ 
 ---
 
 ## Things I have built
 
-**[Wallet Service](https://github.com/Muizzyranking/wallet_service)** — Production-grade wallet backend.
-Paystack integration with idempotent webhook processing, atomic transfers,
-and a scoped API key system. Built to handle real money with zero room for error.
+**[Settle](https://github.com/Muizzyranking/settle-be)** · [frontend](https://github.com/Muizzyranking/settle-fe)
+Payment collection infrastructure for Nigerian SMEs, built on Nomba's virtual
+account APIs. Every customer gets a dedicated account number so incoming
+transfers auto-reconcile — no more manually matching who paid what across
+a shared account. Idempotent webhook processing, an append-only ledger, and
+two separate SSE channels for real-time payment status. Built solo in under
+a week.
 
-**[Shopifyte API](https://github.com/Muizzyranking/shopifyte-api)** — Multi-vendor ecommerce backend.
-Each vendor gets an isolated store. Custom image service compresses and watermarks
-product photos. Shop-scoped permissions enforced on every request.
+**[Flint](https://github.com/Muizzyranking/flint)** · [frontend](https://github.com/Muizzyranking/flint-web)
+A background job scheduler built from scratch — no Celery, no Redis queue.
+An in-memory heap handles priority dispatch with aging, so low-priority jobs
+are mathematically guaranteed to eventually run instead of starving forever.
+A DAG engine handles job dependencies with cascade retry and cascade failure.
+Dead-letter queue with threshold alerting for jobs that fail for good.
 
-**[PostCraft Agent](https://github.com/Muizzyranking/telex-post-craft-agent)** — Telex integration
-that converts any blog URL into a Twitter thread and LinkedIn post using Google Gemini.
-My first production AI integration. JSON-RPC because Telex said so.
+**[Galleria](https://github.com/Muizzyranking/gallerai)** · [frontend](https://github.com/Muizzyranking/gallerai-ui)
+Event photo platform using face recognition. Attendees scan their face once
+and get every photo they appear in, instead of scrolling through hundreds of
+images. RetinaFace + ArcFace running through Celery workers, embeddings
+stored in MongoDB, cosine similarity search across thousands of faces in
+under 100ms.
+
+**[Insighta Labs](https://github.com/Muizzyranking/insighta-backend)** · [web](https://github.com/Muizzyranking/insighta-web) · [CLI](https://github.com/Muizzyranking/insighta-cli)
+Demographic-intelligence API with a dual OAuth flow — standard cookie-based
+auth for the browser, and a full PKCE flow with a local callback server for
+the CLI. Short-lived JWTs paired with single-use hashed refresh tokens, and
+a rule-based natural-language query parser for filtering people by age,
+gender, and country from plain text.
 
 ---
 
 ## Where I have worked
 
-**Taskingdom** — Backend developer on a task-based gaming platform with real-money rewards.
-Built fraud prevention logic, a hybrid Redis/PostgreSQL state tracking system,
-and webhook integration for third-party game outcomes.
+**HNG Internship** — Finalist in a highly competitive, global backend
+internship. Tech lead over an 11-engineer team building an AI-agent tooling
+product, and built Insighta Labs solo. Before that, built the admin system
+and notification system for Sitelytics, a website analysis platform.
+
+**Taskingdom** — Backend developer on a task-based gaming platform with
+real-money rewards. Built fraud prevention logic, a hybrid Redis/PostgreSQL
+state tracking system, and webhook integration for third-party game outcomes.
 
 **Meerge Africa** — Owned the Supplier service from scratch. 500+ suppliers,
-four-state approval workflow, JWT service-to-service auth, and 8 weeks as acting
-backend lead when the engineering lead left mid-project.
-
-**HNG 13** — Finalist out of 22,000+ applicants. One of roughly 500 finalists.
-Built the Admin system solo and the notification system for Sitelytics,
-a website analysis platform for non-technical users.
+a four-state approval workflow, JWT service-to-service auth, and 8 weeks as
+acting backend lead when the engineering lead left mid-project.
 
 ---
 
 ## What I am exploring
 
-AI integration for backend systems. Not the hype — the engineering.
-How do you serve a model reliably? How do you build an agent that fails gracefully?
-How do you cache LLM responses without serving stale answers?
-PostCraft was the start. The photo finder app is next.
+Systems that make hard problems boring — priority queues, reconciliation
+engines, real-time infra. Lately I'm curious about where AI-assisted tooling
+actually earns its place in a backend engineer's workflow, beyond
+autocomplete.
 
 ---
 
-## Stats
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=muizzyranking&layout=compact&theme=dark&hide_border=true&bg_color=0e0e0e&title_color=c9a84c&text_color=b8b0a4&hide=html,css)
-
----
-
-oyebowaleabdulmuiz@gmail.com · [Twitter](https://twitter.com/muizzyranking)
-
+<oyebowaleabdulmuiz@gmail.com> · [muizzyranking.me](https://muizzyranking.me) · [Twitter](https://twitter.com/muizzyranking)
 > :wq
