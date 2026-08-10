@@ -82,6 +82,11 @@ autocomplete.
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [The Art of Git Is Dying](https://muizzyranking.me/blog/the-art-of-git-is-dying)
+- [Why I Built My Own Rate Limiting Library for FastAPI](https://muizzyranking.me/blog/why-i-built-fastlimit)
+- [My Experience With HNG: Two Tasks That Stuck With Me](https://muizzyranking.me/blog/my-experience-with-hng)
+- [Understanding the Linux Shell: Aliases, Special Parameters, and Security](https://muizzyranking.me/blog/understanding-the-linux-shell-aliases-special-parameters-and-security)
+- [Understanding the Linux Shell: Variables, Expansions, and Shell Scripts](https://muizzyranking.me/blog/understanding-the-linux-shell-variables-expansions-and-shell-scripts)
 <!-- BLOG-POST-LIST:END -->
 
 ---
