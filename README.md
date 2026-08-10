@@ -80,5 +80,11 @@ autocomplete.
 
 ---
 
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
 <oyebowaleabdulmuiz@gmail.com> · [muizzyranking.me](https://muizzyranking.me) · [Twitter](https://twitter.com/muizzyranking)
 > :wq
